@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    
+
+}
+
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+img {
+    width: 140px;
+    height: 90px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: Arial;
+}
+
+nav a:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(industria\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.escrita {
+    flex: 1;
+    display: flex;
+    flex-direction: column;/*É aqui que vai deixar os textos 
+    do bainer em sentido de coluna*/
+    justify-content: center;
+    
+    
+    
+    
+
+}
+
+.poster {
+    display: flex;
+    flex-direction: row;/*se não colocar nada nessa configuração ele vai ficar como row também que é o padrão do flex*/
+    height: 250px;
+    margin-bottom: 10px;
+
+}
+
+.escrita h1  {
+    color: white;
+    font-size: 50px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+
+.escrita h2 {
+    color: white;
+    font-size: 22px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 30px;
+    
+}
+
+.banner-1,
+.banner-2,
+.banner-3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    justify-content: center;
+    
+    
+}
+
+.banner-1 {
+    
+    background-color: rgba(14, 14, 192, 0.864);
+
+
+}
+
+.banner-2 {
+    
+    background-color: rgb(81, 71, 133);
+    
+
+}
+
+.banner-3 {
+    
+    background-color: rgb(11, 149, 184);
+
+    
+
+}
+
+.banner_title {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_desc {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.poster a {
+    display:flex;
+    border: 1px solid #ffff;
+    padding-top: 5px;
+    color: #ffff;
+    text-decoration: none;
+   justify-content: center;
+    align-items: center;
+    
+
+}
+
+.date_hour1,
+.date_hour2,
+.date_hour3 {
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    padding-top:20px;/*pode ser margim -top também funciona*/
+    padding-bottom:10px;
+    border-bottom:1px solid white;
+}
+ 
+
+
+    
+    
+
+
+

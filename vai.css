@@ -1,0 +1,12 @@
+body {
+    background-color: green;
+}
+
+@media (max-width:600px) {
+    body {
+        background-color: red;
+    }
+    h1 {
+        font-size: 15px;
+    }
+}

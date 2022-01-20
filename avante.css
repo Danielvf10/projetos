@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+body,ul,li,p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial;
+    list-style: none;
+}
+
+.logo {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: rgb(162, 91, 105);
+
+}
+
+.menu {
+    display: flex;
+    
+    
+}
+
+.menu li {
+    margin-left:20px;/*distanciamento de um quadrado pro outro*/
+    
+}
+
+.menu li a  {
+    display: block;
+    padding: 20px;
+    background-color: rgb(141, 158, 102)
+
+}
+
+.menu li a:hover {
+    background-color:white;
+    color: black;
+}
+
+.banner {
+    background-image: url(cafe\ 2.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+
+
+    .titulo {
+    color: white;
+    padding-top: 50px;
+    padding-left: 15px;
+    
+}
+
+

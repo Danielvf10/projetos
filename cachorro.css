@@ -1,0 +1,11 @@
+body {
+    background-image: url("gif cachorro.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgba(98, 0, 255, 0.356);
+    text-align: center;
+}

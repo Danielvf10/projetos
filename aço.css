@@ -1,0 +1,17 @@
+ div {
+     width: 100%;
+     height: 300px;
+     background-color: blueviolet;
+     border-radius: 10px;
+ }
+ 
+ h1 {
+     color: white;
+     padding-top: 200px;
+     padding-left: 250px;
+     font-size: 50px;
+ }
+ 
+ div>h1:hover {
+     color: yellow;
+ }

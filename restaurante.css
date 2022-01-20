@@ -1,0 +1,43 @@
+body {
+    width: 95%;
+    max-width: 900px;
+    margin: auto;
+    background: url(desenho\ 2.jpg.crdownload) center;
+    font-family: sans-serif;
+    line-height: 1, 5;
+    color: white;
+    text-align: justify;
+}
+
+main {
+    background: #4400005d;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 5px black;
+}
+
+img {
+    width: 330px;
+    height: 180px;
+}
+
+.logo,
+.prato,
+.cardapio {
+    margin: 0;
+    text-align: center;
+}
+
+.agenda {
+    margin: 30px o;
+    text-align: center;
+    width: 100%;
+}
+
+.agenda table {
+    background: #fff00061;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}

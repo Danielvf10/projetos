@@ -1,0 +1,27 @@
+#exemplo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid black;
+
+}
+
+.verde {
+    background-color: green;
+    font-size: 40px;
+}
+
+.vermelho {
+    background-color: red;
+    font-size: 40px;
+}
+
+.azul {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+
+
+
+
+
+.menu {
+    /*display: flex;*/
+    text-align: center;
+    /*justify-content: space-around;*/
+    background-color: rgb(55, 117, 140);
+    padding: 5px;
+    border-radius: 7px;
+    
+    
+    
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu a {
+    
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+.titulo {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.instrumentos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+    
+}
+
+.nomeloja {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    
+
+    
+
+}
+
+.categoria {
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    text-align: center;
+    color: darkblue;
+}
+

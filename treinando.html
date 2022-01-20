@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* body {
+            text-align: center;
+            background-color: cornflowerblue;
+            font-size: 30px;
+            margin-top: 180px;
+            
+            }
+
+            input  {
+                font-size: 40px;
+                text-align: center;
+                border-radius: 8px;
+                border: double 5px blue;
+                width: 160px;
+            }
+
+            #vamos {
+                font-size: 50px;
+            }
+
+            
+
+
+           
+
+
+
+
+       
+
+        
+
+       
+    </style>
+</head>
+<body>
+    <h1>Necessidade de voto</h1>
+   Sistema de voto <input type="number" name="voto" id="voto">
+   <input type="button" value="verificar" onclick="calcular()">
+   <div id="vamos"></div>
+
+   <script>
+       function calcular() {
+           var vote = document.querySelector('input#voto')
+           var vamos = document.querySelector('div#vamos')
+           var idade = Number(vote.value)
+           vamos.innerHTML = `<p>Sua idade é de <strong>${idade}</strong> anos<p>`
+           if (idade < 16) {
+               vamos.innerHTML+= '<p>Você não vota<p>'
+           } else if (idade < 18 || idade > 65 ) {
+               vamos.innerHTML+= '<p>Voto opcional<p>'
+           } else {
+               vamos.innerHTML+='<p>Voto obrigatório<p>'
+           }
+       }
+   </script>
+    
+   
+    
+
+
+        
+
+    
+        
+    
+    
+
+   
+    
+
+        
+
+        
+
+    
+    
+</body>
+</html>

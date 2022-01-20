@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+}
+
+nav {
+    background: blue;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+nav>a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+nav>a:hover {
+    background-color: greenyellow;
+    color: hotpink;
+}
+
+header {
+    background: rgb(67, 138, 67);
+    text-align: center;
+    min-height: 150px;
+    padding: 40px;
+}
+
+header>h1 {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 10px;
+}
+
+header>p {
+    color: white;
+    max-width: 600px;
+    font-size: 1.2em;
+    margin: auto;
+}
+
+main>article {
+    padding: 10px;
+    font-weight: bold;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(108, 114, 97);
+}
+
+main img {
+    width: 100%;
+}

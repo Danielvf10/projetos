@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+            background-color: #ccc;
+            display: grid;
+            grid-gap:10px;
+            grid-template-areas:
+            "header header header header"
+            "menu content content content "
+            "ad content content content"
+            "footer footer footer footer"
+            
+            ;
+                
+         }
+
+         @media (max-width:750px) {
+             .container {
+                 grid-template-areas:
+                 "header header header menu"
+                 "ad ad ad ad"
+                 "content content content content"
+                 "footer footer footer footer"
+             }
+         }
+
+        
+        
+            
+        .item {
+            background-color: blue;
+            border-radius: 10px;
+            color: white;
+            padding:20px;
+            font-size: 20px;
+           /* text-align: center;*/
+            
+        }
+
+        header {
+            grid-area:header;
+
+        }
+
+        nav {
+            grid-area:menu;
+
+        }
+
+        section {
+            grid-area:content;
+        }
+
+        footer {
+            grid-area:footer;
+
+        }
+
+        .ad {
+            grid-area:ad;
+        }
+
+      
+       
+
+</style>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="item">Cabeçalho</header>
+        <nav class="item">Menu</nav>
+        <section class="item">Conteúdo</section>
+        <footer class="item">Rodapé</footer>
+        <div class="item ad">Anúncio</div>
+       
+
+    </div>
+    
+    
+</body>
+</html>

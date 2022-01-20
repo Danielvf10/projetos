@@ -1,0 +1,36 @@
+table,
+td,
+th {
+    border: 1px solid rgb(79, 49, 216)
+}
+
+table {
+    width: 900px;
+}
+
+.caixa {
+    background-color: darkgrey;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.teste {
+    background-color: darkgrey;
+}
+
+#modelo1 {
+    background-color: darkgrey;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 217, 255);
+}
+
+.especial {
+    background-color: greenyellow;
+}
+
+.bacana {
+    background-color: hotpink;
+}

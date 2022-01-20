@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.img1 {
+    border: 2px solid black;
+    margin-top: 40px;
+}
+
+.img4 {
+    border: 2px solid black;
+    margin-top: 40px;
+
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*border: 2px solid black;*/
+    
+}

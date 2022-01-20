@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    
+    <h1>Controle de velocidade</h1>
+    <input type="text" name="txtvel" id="txtvel">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res"></div>
+
+    <script>
+        function calcular() {
+        var txt = document.getElementById('txtvel')
+        var res = document.getElementById('res')
+        var vel= Number(txt.value)
+        res.innerHTML = (`Sua velocidade atual é de ${vel}`)
+        if (vel>60){
+            res.innerHTML += '<p> Você esta multado</p>'
+        }
+        res.innerHTML+='<p> Dirija sempre com cinto de segurança '
+        }
+
+    </script>
+   
+    
+        
+    
+    
+    
+    
+    
+</body>
+</html>
